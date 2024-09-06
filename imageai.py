@@ -1,7 +1,7 @@
 import openai
 from flask import Flask, render_template_string, request
 
-openai.api_key = ""
+openai.api_key = "enter your api key"
 
 def generate_tutorial(components):
   response = openai.Images.create(
